@@ -1,0 +1,40 @@
+body {
+  font-family: Georgia;
+  background-color: #202124;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  margin-right: 15px;
+  border: 0.125rem solid #ff8d70;
+  border-radius: 0.2rem;
+  color: #ff8d70;
+  background-color: #202124;
+  font-size: 0.75rem;
+  font-family: none;
+}
+
+hr {
+  width: 5.8125rem;
+}
+
+.section {
+  display: flex;
+}
+
+.line {
+  width: 93px;
+  height: 0;
+  border: 0.1rem solid white;
+  margin: 0.8125rem 0.7rem;
+  display: inline-block;
+}
+
+.categories {
+  margin: 15px;
+}
