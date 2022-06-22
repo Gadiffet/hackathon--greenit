@@ -1,0 +1,116 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #202124;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  width: 40rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.logo {
+  margin: 2.875rem 0 0 -1.125rem;
+}
+
+.logo-long {
+  height: 1rem;
+  width: 4.375rem;
+  background: #ff8d70;
+  border-radius: 1rem;
+  transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+}
+
+.logo-dot {
+  background: #ff8d70;
+  border-radius: 1rem;
+  height: 1rem;
+  width: 1rem;
+  margin: 0.2rem 0 0 3rem;
+}
+
+.information {
+  margin-top: 1.875rem;
+  width: 40rem;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  max-width: 45rem;
+}
+
+.line {
+  width: 100%;
+  border: 0.1rem solid white;
+  margin: 0 1rem;
+  max-width: 40rem;
+}
+
+.categories {
+  display: flex;
+}
+
+.big-button {
+  width: 200px;
+  height: 100px;
+  margin: 1rem;
+  border: 0.125rem solid #ff8d70;
+  border-radius: 0.2rem;
+  color: #ff8d70;
+  background-color: #202124;
+  font-size: 1rem;
+}
+
+.standard-button {
+  width: 200px;
+  height: 50px;
+  margin: 1rem;
+  border: 0.125rem solid #ff8d70;
+  border-radius: 0.2rem;
+  color: #ff8d70;
+  background-color: #202124;
+  font-size: 1rem;
+}
+
+.members {
+  margin: 2rem 3rem;
+}
+
+.article {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 710px) {
+  h2 {
+    width: 20rem;
+  }
+
+  .information {
+    width: 20rem;
+  }
+
+  .big-button {
+    margin: 0.5rem;
+    width: 150px;
+    height: 100px;
+  }
+}
