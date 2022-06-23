@@ -36,6 +36,10 @@ a {
   line-height : 100px;
 }
 
+footer {
+  margin-top: 5rem;
+}
+
 .logo {
   margin: 2.875rem 0 0 -1.125rem;
 }
@@ -87,6 +91,7 @@ a {
   color: #ff8d70;
   background-color: #202124;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .members {
@@ -96,6 +101,12 @@ a {
 .article {
   text-align: center;
   margin-top: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 @media (max-width: 710px) {
