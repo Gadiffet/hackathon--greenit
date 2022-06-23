@@ -1,4 +1,4 @@
-# hackathon--greenit
+# Adeo Summit Hackathon - GreenIT
 
 ## How to launch this project ?
 
@@ -24,3 +24,9 @@ Install and run ***http-server*** :
 npm install -g local-web-server
 ws --http2 
 ```
+
+## Group 2
+
+- [Zineb Brahimi](https://github.com/ZinebBrahimi)
+- [Edouard Penninck](https://github.com/EdouardPenninck)
+- [Théo Gadiffet](https://github.com/Gadiffet)
