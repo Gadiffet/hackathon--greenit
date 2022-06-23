@@ -24,6 +24,16 @@ p {
 a {
   display: block;
   text-decoration: none;
+  width: 200px;
+  height: 100px;
+  margin: 1rem;
+  border: 0.125rem solid #ff8d70;
+  border-radius: 0.2rem;
+  color: #ff8d70;
+  background-color: #202124;
+  font-size: 1rem;
+  text-align: center;
+  line-height : 100px;
 }
 
 .logo {
@@ -68,17 +78,6 @@ a {
   display: flex;
 }
 
-.big-button {
-  width: 200px;
-  height: 100px;
-  margin: 1rem;
-  border: 0.125rem solid #ff8d70;
-  border-radius: 0.2rem;
-  color: #ff8d70;
-  background-color: #202124;
-  font-size: 1rem;
-}
-
 .standard-button {
   width: 200px;
   height: 50px;
@@ -108,7 +107,7 @@ a {
     width: 20rem;
   }
 
-  .big-button {
+  a {
     margin: 0.5rem;
     width: 150px;
     height: 100px;

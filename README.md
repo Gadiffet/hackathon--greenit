@@ -6,9 +6,9 @@ Install and Minify all ***src*** files :
 
 ```shell
 npm i minify -g
-minify src/index.css > dist/index.min.css
-minify src/index.html > dist/index.min.html
-minify src/products.html > dist/products.min.html
+minify src/index.css > dist/index.css
+minify src/index.html > dist/index.html
+minify src/products.html > dist/products.html
 ```
 
 Install and compress with ***brotli*** all ***dist*** files :

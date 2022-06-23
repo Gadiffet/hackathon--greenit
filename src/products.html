@@ -2,7 +2,9 @@
 <html lang="fr">
 <head>
     <title>Tapis-Land</title>
-    <meta charset="UTF-8" name="Vendeur de tapis" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Vendeur de tapis">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css" />
     <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
 </head>
@@ -17,14 +19,14 @@
 <div class="line"></div>
 
 <div class="article">
-    <img src="./assets/tapis.svg" loading="lazy" />
+    <img alt="tapis" src="/assets/tapis_simple.webp" />
     <p>158x225 cm</p>
     <p>180 €</p>
     <button class="standard-button">Ajouter au panier</button>
 </div>
 
 <div class="article">
-    <img src="./assets/tapis.svg" loading="lazy" />
+    <img alt="tapis" src="/assets/tapis_simple2.webp" />
     <p>158x225 cm</p>
     <p>180 €</p>
     <button class="standard-button">Ajouter au panier</button>
@@ -35,17 +37,8 @@
     <h2>Nettoyage</h2>
     <div class="line"></div>
 </div>
-<!--
-<section>
-  <video controls width="250">
-    <source
-      src="res/video_nosound_compressed_2.mp4"
-      type="video/mp4"
-      loading="lazy"
-    />
-    <p>Votre navigateur ne prend pas en charge les vidéos HTML5.</p>
-  </video>
-</section>
--->
+<video controls muted preload="none">
+    <source src="/assets/video2.mp4" type="video/mp4">
+</video>
 </body>
 </html>
